@@ -24,6 +24,7 @@ import os
 from urlparse import urlparse, urlunparse
 # Load more settings from a file called local_settings.py if it exists
 try:
+    from geonode.settings import *
     from athens_geonode.local_settings import *
 #    from geonode.local_settings import *
 except ImportError:
