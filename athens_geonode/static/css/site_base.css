@@ -7,3 +7,11 @@
     padding:8.5em 0 4.75em;
     text-shadow:2px 2px 2px rgba(0,0,0,0.4);
 }
+
+.navbar-brand {
+    background: url(../img/site-logo.png) 0 7px no-repeat;
+    background-size: 85%;
+    text-indent: -9999px;
+    height: 85px;
+    width: 250px;
+}
