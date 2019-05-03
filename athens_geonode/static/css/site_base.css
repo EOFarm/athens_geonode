@@ -1,0 +1,9 @@
+.home .jumbotron {
+    background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)),url(../img/parthenon_at_night.jpg) no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: #FFFFFF;
+    margin-bottom:0;
+    padding:8.5em 0 4.75em;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.4);
+}
