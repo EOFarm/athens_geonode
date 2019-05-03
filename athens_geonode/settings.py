@@ -51,6 +51,41 @@ WSGI_APPLICATION = "{}.wsgi.application".format(PROJECT_NAME)
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = os.getenv('LANGUAGE_CODE', "en")
 
+_DEFAULT_LANGUAGES = (
+    ('en', 'English'),
+    # ('es', 'Español'),
+    # ('it', 'Italiano'),
+    # ('fr', 'Français'),
+    # ('de', 'Deutsch'),
+    ('el', 'Ελληνικά'),
+    # ('id', 'Bahasa Indonesia'),
+    # ('zh-cn', '中文'),
+    # ('ja', '日本語'),
+    # ('fa', 'Persian'),
+    # ('ar', 'Arabic'),
+    # ('bn', 'Bengali'),
+    # ('ne', 'Nepali'),
+    # ('sq', 'Albanian'),
+    # ('af', 'Afrikaans'),
+    # ('sw', 'Swahili'),
+    # ('pt', 'Portuguese'),
+    # ('pt-br', 'Portuguese (Brazil)'),
+    # ('ru', 'Russian'),
+    # ('vi', 'Vietnamese'),
+    # ('ko', '한국어'),
+    # ('am', 'Amharic'),
+    # ('km', 'Khmer'),
+    # ('pl', 'Polish'),
+    # ('sv', 'Swedish'),
+    # ('th', 'ไทย'),
+    # ('uk', 'Ukranian'),
+    # ('si', 'Sinhala'),
+    # ('ta', 'Tamil'),
+    # ('tl', 'Tagalog'),
+)
+
+LANGUAGES = os.getenv('LANGUAGES', _DEFAULT_LANGUAGES)
+
 if PROJECT_NAME not in INSTALLED_APPS:
     INSTALLED_APPS += (PROJECT_NAME,)
 
