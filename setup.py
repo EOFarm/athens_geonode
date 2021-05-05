@@ -17,43 +17,34 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 #########################################################################
-
 import os
-try: # for pip >= 10
-    from pip._internal.req import parse_requirements
-    from pip._internal.download import PipSession
-except ImportError: # for pip <= 9.0.3
-    from pip.req import parse_requirements
-    from pip.download import PipSession
+
 from distutils.core import setup
 
 from setuptools import find_packages
 
-# Parse requirements.txt to get the list of dependencies
-inst_req = parse_requirements('requirements.txt',
-                              session=PipSession())
-REQUIREMENTS = [str(r.req) for r in inst_req]
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
 setup(
     name="athens_geonode",
-    version="2.10.0",
+    version="3.2",
     author="",
     author_email="",
     description="athens_geonode, based on GeoNode",
-    long_description=(read('README.rst')),
+    long_description=(read('README.md')),
     # Full list of classifiers can be found at:
     # http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         'Development Status :: 1 - Planning',
     ],
-    license="BSD",
+    license="GPL",
     keywords="athens_geonode geonode django",
     url='https://github.com/athens_geonode/athens_geonode',
-    packages=['athens_geonode',],
+    packages=find_packages(),
+    dependency_links=[
+        "git+https://github.com/GeoNode/geonode.git@3.2.x#egg=geonode"
+    ],
     include_package_data=True,
-    zip_safe=False,
-    install_requires=REQUIREMENTS,
 )
