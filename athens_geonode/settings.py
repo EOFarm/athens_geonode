@@ -19,12 +19,17 @@
 #########################################################################
 
 # Django settings for the GeoNode project.
-import ast
 import os
-from urlparse import urlparse, urlunparse
+import ast
+
+try:
+    from urllib.parse import urlparse, urlunparse
+    from urllib.request import urlopen, Request
+except ImportError:
+    from urllib2 import urlopen, Request
+    from urlparse import urlparse, urlunparse
 # Load more settings from a file called local_settings.py if it exists
 try:
-    from geonode.settings import *
     from athens_geonode.local_settings import *
 #    from geonode.local_settings import *
 except ImportError:
@@ -51,41 +56,6 @@ WSGI_APPLICATION = "{}.wsgi.application".format(PROJECT_NAME)
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = os.getenv('LANGUAGE_CODE', "en")
 
-_DEFAULT_LANGUAGES = (
-    ('en', 'English'),
-    # ('es', 'Español'),
-    # ('it', 'Italiano'),
-    # ('fr', 'Français'),
-    # ('de', 'Deutsch'),
-    ('el', 'Ελληνικά'),
-    # ('id', 'Bahasa Indonesia'),
-    # ('zh-cn', '中文'),
-    # ('ja', '日本語'),
-    # ('fa', 'Persian'),
-    # ('ar', 'Arabic'),
-    # ('bn', 'Bengali'),
-    # ('ne', 'Nepali'),
-    # ('sq', 'Albanian'),
-    # ('af', 'Afrikaans'),
-    # ('sw', 'Swahili'),
-    # ('pt', 'Portuguese'),
-    # ('pt-br', 'Portuguese (Brazil)'),
-    # ('ru', 'Russian'),
-    # ('vi', 'Vietnamese'),
-    # ('ko', '한국어'),
-    # ('am', 'Amharic'),
-    # ('km', 'Khmer'),
-    # ('pl', 'Polish'),
-    # ('sv', 'Swedish'),
-    # ('th', 'ไทย'),
-    # ('uk', 'Ukranian'),
-    # ('si', 'Sinhala'),
-    # ('ta', 'Tamil'),
-    # ('tl', 'Tagalog'),
-)
-
-LANGUAGES = os.getenv('LANGUAGES', _DEFAULT_LANGUAGES)
-
 if PROJECT_NAME not in INSTALLED_APPS:
     INSTALLED_APPS += (PROJECT_NAME,)
 
@@ -93,9 +63,8 @@ if PROJECT_NAME not in INSTALLED_APPS:
 ROOT_URLCONF = os.getenv('ROOT_URLCONF', '{}.urls'.format(PROJECT_NAME))
 
 # Additional directories which hold static files
-STATICFILES_DIRS.append(
-    os.path.join(LOCAL_ROOT, "static"),
-)
+# - Give priority to local geonode-project ones
+STATICFILES_DIRS = [os.path.join(LOCAL_ROOT, "static"), ] + STATICFILES_DIRS
 
 # Location of locale files
 LOCALE_PATHS = (
@@ -108,8 +77,67 @@ loaders = TEMPLATES[0]['OPTIONS'].get('loaders') or ['django.template.loaders.fi
 TEMPLATES[0]['OPTIONS']['loaders'] = loaders
 TEMPLATES[0].pop('APP_DIRS', None)
 
-UNOCONV_ENABLE = strtobool(os.getenv('UNOCONV_ENABLE', 'True'))
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d '
+                      '%(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(message)s',
+        },
+    },
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'
+        }
+    },
+    'handlers': {
+        'console': {
+            'level': 'ERROR',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler',
+        }
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["console"], "level": "ERROR", },
+        "geonode": {
+            "handlers": ["console"], "level": "INFO", },
+        "geoserver-restconfig.catalog": {
+            "handlers": ["console"], "level": "ERROR", },
+        "owslib": {
+            "handlers": ["console"], "level": "ERROR", },
+        "pycsw": {
+            "handlers": ["console"], "level": "ERROR", },
+        "celery": {
+            "handlers": ["console"], "level": "DEBUG", },
+        "mapstore2_adapter.plugins.serializers": {
+            "handlers": ["console"], "level": "DEBUG", },
+        "geonode_logstash.logstash": {
+            "handlers": ["console"], "level": "DEBUG", },
+    },
+}
 
-if UNOCONV_ENABLE:
-    UNOCONV_EXECUTABLE = os.getenv('UNOCONV_EXECUTABLE', '/usr/bin/unoconv')
-    UNOCONV_TIMEOUT = os.getenv('UNOCONV_TIMEOUT', 30)  # seconds
+CENTRALIZED_DASHBOARD_ENABLED = ast.literal_eval(os.getenv('CENTRALIZED_DASHBOARD_ENABLED', 'False'))
+if CENTRALIZED_DASHBOARD_ENABLED and USER_ANALYTICS_ENABLED and 'geonode_logstash' not in INSTALLED_APPS:
+    INSTALLED_APPS += ('geonode_logstash',)
+
+    CELERY_BEAT_SCHEDULE['dispatch_metrics'] = {
+        'task': 'geonode_logstash.tasks.dispatch_metrics',
+        'schedule': 3600.0,
+    }
+
+LDAP_ENABLED = ast.literal_eval(os.getenv('LDAP_ENABLED', 'False'))
+if LDAP_ENABLED and 'geonode_ldap' not in INSTALLED_APPS:
+    INSTALLED_APPS += ('geonode_ldap',)
+
+# Add your specific LDAP configuration after this comment:
+# https://docs.geonode.org/en/master/advanced/contrib/#configuration
