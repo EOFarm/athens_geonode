@@ -7,7 +7,7 @@
 χρήστη να αναζητήσει τα διαθέσιμα δεδομένα και τους διαθέσιμους χάρτες.
 
 .. figure:: img/Image1.png
-        :width: 50%
+        :width: 70%
 
 Η αναζήτηση των διαθέσιμων πόρων γίνεται με ποικίλους τρόπους.
 
@@ -16,6 +16,6 @@
 
    keywordsearch
    advancedsearch
-   typedsearch
+   typesearch
    categorysearch
    exploreall

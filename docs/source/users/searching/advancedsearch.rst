@@ -6,10 +6,10 @@
 
 #. Επιλέγεται η Προχωρημένη Αναζήτηση
 
-.. figure:: img/Image6.png
+   .. figure:: img/Image6.png
         :width: 50%
 
 #. Τα διαθέσιμα στοιχεία φιλτράρονται
 
-.. figure:: img/Image7.png
-        :width: 50%
+   .. figure:: img/Image7.png
+        :width: 35%
