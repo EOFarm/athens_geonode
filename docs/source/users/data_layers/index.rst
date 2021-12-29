@@ -13,5 +13,5 @@
    layerbasicfeatures
    layerdownload
    metadata
-   users\data_layers\viewlayer\index
+   viewlayer
    metadatadownload

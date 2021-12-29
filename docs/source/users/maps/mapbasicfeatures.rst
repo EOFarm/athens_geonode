@@ -18,7 +18,7 @@
 
 
 .. figure:: img/Image13.png
-        :width: 70%
+        :width: 85%
 
 Ο διαμοιρασμός του επιπέδου πραγματοποιαίται από την καρτέλα «Μοίρασμα».
 
@@ -52,14 +52,7 @@
 .. figure:: img/Image19.png
         :width: 70%
 
-Ο χρήστης μπορεί να κάνει λήψη του χάρτη, να πληροφορηθεί για τα μεταδεδομένα και να κάνει επισκόπηση του χάρτη.
+Ο χρήστης μπορεί να κάνει :ref:`downloadmap`, να πληροφορηθεί για τις :ref:`metadata` και να κάνει :ref:`viewmap`.
 
 .. figure:: img/Image20.png
-        :width: 70%
-
-.. toctree::
-   :maxdepth: 2
-
-   downloadmap
-   metadata
-   viewmap
+        :width: 80%
