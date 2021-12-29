@@ -8,7 +8,7 @@
 λειτουργίες των "Επιπέδων".
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
 
    layerbasicfeatures
    layerdownload

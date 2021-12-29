@@ -10,45 +10,45 @@
 .. _«Ταχυδρομικοί Κώδικες στο Δήμο Αθηναίων»: http://gis.cityofathens.gr/layers/athens_geonode_data:geonode:tk_da
 
 .. figure:: img/Image66.png
-        :width: 50%
+        :width: 60%
 
 Στην πρώτη σελίδα εμφανίζεται ο χάρτης με το επίπεδο και υπόβαθρο το `«Open Street Map»`_.
 Ο χρήστης μπορεί να πληροφορηθεί σχετικά με το επίπεδο (καρτέλα «Πληροφορίες»), τα πεδία που περιλαμβάνει (καρτέλα «Χαρακτηριστικά»)
 
 .. figure:: img/Image67.png
-        :width: 50%
+        :width: 60%
 
 και να μοιραστεί το επίπεδο (καρτέλα «Μοίρασμα»).
 
 .. figure:: img/Image68.png
-        :width: 50%
+        :width: 60%
 
 .. _«Open Street Map»: https://www.openstreetmap.org/copyright
 
 Στην περιοχή του χάρτη πραγματοποιείται πλοήγηση, μεγέθυνση και σμίκρυνση, εμφάνιση πληροφοριών του επιπέδου στο σημείο ενδιαφέροντος
 
 .. figure:: img/Image69.png
-        :width: 50%
+        :width: 60%
 
 Ακόμα, μπορούν να εμφανιστούν περισσότερες πληροφορίες για το συγκεκριμένο σημείο.
 
 .. figure:: img/Image70.png
-        :width: 50%
+        :width: 60%
 
 Υπάρχει δυνατότητα επισήμανσης του επιλεγμένου στοιχείου και εστίασης σε αυτό.
 
 .. figure:: img/Image71.png
-        :width: 50%
+        :width: 60%
 
 Ο χάρτης εκπυπώνεται επιλέγοντας το :guilabel:`PRINT`.
 
 .. figure:: img/Image72.png
-        :width: 50%
+        :width: 60%
 
 Ακόμα, υπάρχει η δυνατότητα μεταφόρτωσης του επιπέδου, επισκόπησης των μεταδεδομένων, θέασης του επιπέδου σε πλήρη οθόνη και μεταφόρτωσης των μεταδεδομένων.
 
 .. figure:: img/Image73.png
-        :width: 50%
+        :width: 60%
 
 
 .. toctree::
@@ -56,5 +56,5 @@
 
    layerdownload
    metadata
-   users\data_layers\viewlayer\index
+   viewlayer
    metadatadownload
