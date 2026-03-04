@@ -27,6 +27,7 @@ import socket
 import ipaddress
 import logging
 import datetime
+from pathlib import Path
 
 from urllib.parse import urlparse, urlunparse
 from invoke import task
@@ -353,7 +354,11 @@ def migrations(ctx):
 def statics(ctx):
     print("**************************statics*******************************")
     try:
-        ctx.run("mkdir -p /mnt/volumes/statics/{static,uploads}")
+        static_root = os.environ.get("STATIC_ROOT", "/mnt/volumes/statics/static/")
+        media_root = os.environ.get("MEDIA_ROOT", "/mnt/volumes/statics/uploaded/")
+        assets_root = os.environ.get("ASSETS_ROOT", "/mnt/volumes/statics/assets/")
+
+        ctx.run(f"mkdir -pv {static_root} {media_root} {assets_root}")
         ctx.run(
             f"python manage.py collectstatic --noinput --settings={_localsettings()}",
             pty=True,
@@ -397,6 +402,20 @@ def fixtures(ctx):
         pty=True,
     )
 
+    # Load Project related fixtures
+    from django.conf import settings
+    project_fixtures = getattr(settings, 'PROJECT_FIXTURES', [])
+
+    for fixture in project_fixtures:
+        if fixture:
+            print(f"Loading project fixture: {fixture}")
+            try:
+                ctx.run(
+                    f"python manage.py loaddata {fixture} --settings={_localsettings()}",
+                    pty=True
+                )
+            except Exception as e:
+                print(f"Warning: Failed to load fixture {fixture}: {e}")
 
 @task
 def collectstatic(ctx):
@@ -469,7 +488,9 @@ def collectmetrics(ctx):
 @task
 def initialized(ctx):
     print("**************************init file********************************")
-    ctx.run("date > /mnt/volumes/statics/geonode_init.lock")
+    static_root = os.environ.get("STATIC_ROOT", "/mnt/volumes/statics/static/")
+    lockfile_dir = Path(static_root).parent  # quite ugly, we're assuming such dir exists and is writable
+    ctx.run(f"date > {lockfile_dir}/geonode_init.lock")
 
 
 def _docker_host_ip():
@@ -555,7 +576,7 @@ def _update_geodb_connstring():
 
 
 def _localsettings():
-    settings = os.getenv("DJANGO_SETTINGS_MODULE", "athens_geonode.settings")
+    settings = os.getenv("DJANGO_SETTINGS_MODULE", "{{ project_name }}.settings")
     return settings
 
 
