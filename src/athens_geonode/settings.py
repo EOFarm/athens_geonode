@@ -168,8 +168,12 @@ LANGUAGES = (
     ('el-gr', 'Ελληνικά'),
 )
 
+MAPSTORE_DEFAULT_LANGUAGES = (
+    ('en-us', 'English'),
+    ('el-gr', 'Ελληνικά'),
+)
+
 MAPSTORE_TRANSLATIONS_PATH = [
     '/static/mapstore/ms-translations',
-    '/static/mapstore/gn-translations',
-    '/static/mapstore/project-translations'
+    '/static/mapstore/gn-translations'
 ]
