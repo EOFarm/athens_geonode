@@ -4403,7 +4403,7 @@
       }
     },
     "resourcesCatalog": {
-      "filter": "Filter",
+      "filter": "Φίλτρο",
       "filters": "Filters",
       "view": "View",
       "resourcesFound": "{count, plural, =0 {0 Resources found} =1 {1 Resource found} other {# Resources found}}",
