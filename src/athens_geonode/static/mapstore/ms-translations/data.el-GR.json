@@ -2601,586 +2601,586 @@
       "selectworkspace": "Πρέπει να επιλέξετε τον χώρο εργασίας για να ενεργοποιήσετε τις προχωρημένες επιλογές"
     },
     "geostory": {
-      "storyResources": "Story Resources",
-      "geostoreMap": "MapStore Maps",
-      "loadingSpinner": "Loading Story",
-      "addTitleSection": "Add Title Section",
-      "addBannerSection": "Add Banner Section",
-      "addParagraphSection": "Add Paragraph Section",
-      "addImmersiveSection": "Add Immersive Section",
-      "addMediaSection": "Add Media Section",
-      "addWebPageSection": "Add Web Page Section",
-      "addImmersiveContent": "Add Immersive Content",
-      "addGeocarouselSection": "Add Geocarousel Section",
-      "addGeocarouselContent": "Add Geocarousel Content",
-      "addTextContent": "Add Text Content",
-      "addMediaContent": "Add Media Content",
-      "addWebPageContent": "Add Web Page Content",
-      "zoomToContent": "Zoom to content",
-      "delete": "Delete geostory",
-      "emptyTitle": "This story is empty",
-      "emptyDescription": "Start creating an awesome geostory by adding new content",
-      "closeFullscreenMap": "Close fullscreen map",
-      "showFullscreenMap": "Show fullscreen map",
-      "carouselAddTitle": "Add new card thumbnail",
-      "carouselEditTitle": "Edit card thumbnail",
-      "carouselAddMapInfo": "Add a background map",
-      "carouselAddItemInfo": "Add a new marker for the selected carousel item",
-      "carouselPlaceMarkerInfo": "Click on the map to add a new marker",
+      "storyResources": "Πόροι Ιστορίας",
+      "geostoreMap": "Χάρτες MapStore",
+      "loadingSpinner": "Φόρτωση Ιστορίας",
+      "addTitleSection": "Προσθήκη Ενότητας Τίτλου",
+      "addBannerSection": "Προσθήκη Ενότητας Banner",
+      "addParagraphSection": "Προσθήκη Ενότητας Παραγράφου",
+      "addImmersiveSection": "Προσθήκη Ενότητας Εμβύθισης",
+      "addMediaSection": "Προσθήκη Ενότητας Πολυμέσων",
+      "addWebPageSection": "Προσθήκη Ενότητας Ιστοσελίδας",
+      "addImmersiveContent": "Προσθήκη Περιεχομένου Εμβύθισης",
+      "addGeocarouselSection": "Προσθήκη Ενότητας Geocarousel",
+      "addGeocarouselContent": "Προσθήκη Περιεχομένου Geocarousel",
+      "addTextContent": "Προσθήκη Κειμένου",
+      "addMediaContent": "Προσθήκη Περιεχομένου Πολυμέσων",
+      "addWebPageContent": "Προσθήκη Περιεχομένου Ιστοσελίδας",
+      "zoomToContent": "Σύγκλιση στο περιεχόμενο",
+      "delete": "Διαγραφή γεοϊστορίας",
+      "emptyTitle": "Αυτή η ιστορία είναι κενή",
+      "emptyDescription": "Ξεκινήστε να δημιουργείτε μια εντυπωσιακή γεοϊστορία προσθέτοντας νέο περιεχόμενο",
+      "closeFullscreenMap": "Κλείσιμο χάρτη πλήρους οθόνης",
+      "showFullscreenMap": "Εμφάνιση χάρτη πλήρους οθόνης",
+      "carouselAddTitle": "Προσθήκη νέου μικρογραφικού κάρτας",
+      "carouselEditTitle": "Επεξεργασία μικρογραφικού κάρτας",
+      "carouselAddMapInfo": "Προσθήκη φόντου χάρτη",
+      "carouselAddItemInfo": "Προσθήκη νέου σημείου για το επιλεγμένο στοιχείο carousel",
+      "carouselPlaceMarkerInfo": "Κάντε κλικ στον χάρτη για να προσθέσετε νέο σημείο",
       "contentToolbar": {
-        "contentSize": "Change size",
-        "contentHeightAuto": "Make this section to adapt to the content height",
-        "contentHeightView": "Make this section to fit the view vertically",
-        "smallSizeLabel": "Small",
-        "mediumSizeLabel": "Medium",
-        "largeSizeLabel": "Large",
-        "fullSizeLabel": "Full",
-        "contentAlign": "Align content",
-        "leftAlignLabel": "Left",
-        "centerAlignLabel": "Center",
-        "rightAlignLabel": "Right",
-        "contentTheme": "Change field theme",
-        "brightThemeLabel": "Bright",
-        "brightTextThemeLabel": "Bright text",
-        "darkThemeLabel": "Dark",
-        "darkTextThemeLabel": "Dark text",
-        "defaultThemeLabel": "Default",
-        "customizeThemeLabel": "Customize",
-        "customizeThemeRemoveLabel": "Remove customization",
-        "cover": "Make the background cover the whole container space",
-        "fit": "Make the whole background visible inside the container",
-        "editMedia": "Change media source",
-        "remove": "Remove",
-        "add": "Add",
-        "edit": "Edit",
-        "marker": "Add marker to map",
-        "removeConfirmTitle": "Are you sure?",
-        "removeConfirmContent": "Do you want to remove this content from the story?",
-        "editMap": "Edit map configuration",
-        "resetMap": "Reset the map to its original configuration",
-        "resetMapConfirm": "Reset Map Configuration",
-        "resetConfirmContent": "Restore the map configuration to the original one?",
-        "saveChanges": "Save changes",
-        "closeMapEditing": "Close",
-        "confirmCloseMapEditing": "Close Map Editing",
-        "pendingChangesDiscardConfirm": "Discard current map changes?",
-        "editURL": "Edit web page URL",
-        "advancedMapEditor": "Open advanced map editor",
-        "enableAudio": "Enable audio",
-        "disableAudio": "Mute video",
-        "enableAutoplay": "Enable autoplay",
-        "disableAutoplay": "Disable autoplay",
-        "enableLoop": "Enable loop",
-        "disableLoop": "Disable loop",
-        "hideCaption": "Hide caption",
-        "showCaption": "Use description as caption"
+        "contentSize": "Αλλαγή μεγέθους",
+        "contentHeightAuto": "Κάντε αυτή την ενότητα να προσαρμόζεται στο ύψος του περιεχομένου",
+        "contentHeightView": "Κάντε αυτή την ενότητα να ταιριάζει κάθετα στην προβολή",
+        "smallSizeLabel": "Μικρό",
+        "mediumSizeLabel": "Μεσαίο",
+        "largeSizeLabel": "Μεγάλο",
+        "fullSizeLabel": "Πλήρες",
+        "contentAlign": "Στοίχιση περιεχομένου",
+        "leftAlignLabel": "Αριστερά",
+        "centerAlignLabel": "Κέντρο",
+        "rightAlignLabel": "Δεξιά",
+        "contentTheme": "Αλλαγή θέματος πεδίου",
+        "brightThemeLabel": "Φωτεινό",
+        "brightTextThemeLabel": "Φωτεινό κείμενο",
+        "darkThemeLabel": "Σκούρο",
+        "darkTextThemeLabel": "Σκούρο κείμενο",
+        "defaultThemeLabel": "Προεπιλεγμένο",
+        "customizeThemeLabel": "Προσαρμογή",
+        "customizeThemeRemoveLabel": "Κατάργηση προσαρμογής",
+        "cover": "Κάλυψη όλου του κοντέινερ από το φόντο",
+        "fit": "Ολόκληρο φόντο ορατό μέσα στο κοντέινερ",
+        "editMedia": "Αλλαγή πηγής πολυμέσου",
+        "remove": "Αφαίρεση",
+        "add": "Προσθήκη",
+        "edit": "Επεξεργασία",
+        "marker": "Προσθήκη σημείου στον χάρτη",
+        "removeConfirmTitle": "Είστε σίγουροι;",
+        "removeConfirmContent": "Θέλετε να αφαιρέσετε αυτό το περιεχόμενο από την ιστορία;",
+        "editMap": "Επεξεργασία ρυθμίσεων χάρτη",
+        "resetMap": "Επαναφορά χάρτη στις αρχικές ρυθμίσεις",
+        "resetMapConfirm": "Επαναφορά Ρυθμίσεων Χάρτη",
+        "resetConfirmContent": "Επαναφορά ρυθμίσεων χάρτη στην αρχική κατάσταση;",
+        "saveChanges": "Αποθήκευση αλλαγών",
+        "closeMapEditing": "Κλείσιμο",
+        "confirmCloseMapEditing": "Κλείσιμο Επεξεργασίας Χάρτη",
+        "pendingChangesDiscardConfirm": "Απόρριψη τρεχουσών αλλαγών χάρτη;",
+        "editURL": "Επεξεργασία URL ιστοσελίδας",
+        "advancedMapEditor": "Άνοιγμα προχωρημένου επεξεργαστή χαρτών",
+        "enableAudio": "Ενεργοποίηση ήχου",
+        "disableAudio": "Σίγαση βίντεο",
+        "enableAutoplay": "Ενεργοποίηση αυτόματης αναπαραγωγής",
+        "disableAutoplay": "Απενεργοποίηση αυτόματης αναπαραγωγής",
+        "enableLoop": "Ενεργοποίηση επανάληψης",
+        "disableLoop": "Απενεργοποίηση επανάληψης",
+        "hideCaption": "Απόκρυψη λεζάντας",
+        "showCaption": "Χρήση περιγραφής ως λεζάντα"
       },
       "navigation": {
-        "edit": "Edit story"
+        "edit": "Επεξεργασία ιστορίας"
       },
       "builder": {
         "defaults": {
-          "htmlTitlePlaceholder": "Insert title",
-          "htmlPlaceholder": "Insert text here...",
-          "titleTitle": "Title Section",
-          "titleBanner": "Banner Section",
-          "titleParagraph": "Paragraph Section",
-          "titleImmersive": "Immersive Section",
-          "titleImmersiveContent": "Immersive Content",
-          "titleGeocarousel": "Geocarousel Section",
-          "titleGeocarouselContent": "Geocarousel Content",
-          "titleMedia": "Media Section",
-          "titleImage": "Image",
-          "titleText": "Text",
-          "titleWebPage": "Web Page",
-          "titleWebPageSection": "Web Page Section",
-          "titleUnknown": "UNKNOWN"
+          "htmlTitlePlaceholder": "Εισάγετε τίτλο",
+          "htmlPlaceholder": "Εισάγετε κείμενο εδώ...",
+          "titleTitle": "Ενότητα Τίτλου",
+          "titleBanner": "Ενότητα Banner",
+          "titleParagraph": "Ενότητα Παραγράφου",
+          "titleImmersive": "Ενότητα Εμβύθισης",
+          "titleImmersiveContent": "Περιεχόμενο Εμβύθισης",
+          "titleGeocarousel": "Ενότητα Geocarousel",
+          "titleGeocarouselContent": "Περιεχόμενο Geocarousel",
+          "titleMedia": "Ενότητα Πολυμέσων",
+          "titleImage": "Εικόνα",
+          "titleText": "Κείμενο",
+          "titleWebPage": "Ιστοσελίδα",
+          "titleWebPageSection": "Ενότητα Ιστοσελίδας",
+          "titleUnknown": "ΑΓΝΩΣΤΟ"
         },
-        "delete": "Remove selected section",
-        "preview": "Show preview",
-        "edit": "Edit story",
-        "noContents": "No Contents Available",
-        "collapseAll": "Collapse all",
-        "expandAll": "Expand all",
-        "fullscreen": "Show preview in fullscreen",
+        "delete": "Αφαίρεση επιλεγμένης ενότητας",
+        "preview": "Προεπισκόπηση",
+        "edit": "Επεξεργασία ιστορίας",
+        "noContents": "Δεν υπάρχουν περιεχόμενα",
+        "collapseAll": "Σύμπτυξη όλων",
+        "expandAll": "Ανάπτυξη όλων",
+        "fullscreen": "Προεπισκόπηση σε πλήρη οθόνη",
         "settings": {
-          "tooltip": "Settings",
-          "back": "Back to builder",
-          "backConfirmTitle": "Settings Changed",
-          "backConfirmBody": "Are you sure to close the settings panel without saving your changes",
-          "backConfirmNo": "No",
-          "backConfirmYes": "Yes",
-          "save": "Save settings",
-          "storyTheme": "Story theme",
-          "storyHeader": "Story Header",
-          "title": "Title",
-          "titlePlaceholder": "Enter Title",
-          "logo": "Logo",
-          "logoPlaceholder": "Drop your logo image here or click to select an image file (supported formats are png and jpeg)",
-          "autoplay": "Autoplay",
-          "enableAutoplay": "Enable autoplay",
-          "autoplayInterval": "Autoplay interval (seconds)",
-          "autoplayIntervalPlaceholder": "Enable autoplay interval",
-          "navbar": "Navigation bar",
-          "showNavbar": "Show navbar",
-          "theme": "Default Theme",
-          "fontFamily": "Font Family",
-          "webFontLoadError": "Failed to load some fonts from local configuration",
-          "fontSize": "Font size",
-          "overlay": "Overlay",
-          "templateTooltip": "This setting allows you to enable the Identify function on the map by defining a generic format for all the layers. It is possible to configure a different format for each single layer using the advanced map editor (pencil icon). For more information, see the <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'> user guide </a>. If a layer has defined its own Identify format, it will be used instead of the generic one set at the map level."
+          "tooltip": "Ρυθμίσεις",
+          "back": "Επιστροφή στον builder",
+          "backConfirmTitle": "Αλλαγές Ρυθμίσεων",
+          "backConfirmBody": "Είστε σίγουροι ότι θέλετε να κλείσετε το πάνελ ρυθμίσεων χωρίς να αποθηκεύσετε τις αλλαγές;",
+          "backConfirmNo": "Όχι",
+          "backConfirmYes": "Ναι",
+          "save": "Αποθήκευση ρυθμίσεων",
+          "storyTheme": "Θέμα ιστορίας",
+          "storyHeader": "Κεφαλίδα ιστορίας",
+          "title": "Τίτλος",
+          "titlePlaceholder": "Εισάγετε Τίτλο",
+          "logo": "Λογότυπο",
+          "logoPlaceholder": "Αποθέστε εδώ την εικόνα του λογότυπου ή κάντε κλικ για επιλογή αρχείου εικόνας (υποστηρίζονται μορφές png και jpeg)",
+          "autoplay": "Αυτόματη αναπαραγωγή",
+          "enableAutoplay": "Ενεργοποίηση αυτόματης αναπαραγωγής",
+          "autoplayInterval": "Διάστημα αυτόματης αναπαραγωγής (δευτερόλεπτα)",
+          "autoplayIntervalPlaceholder": "Εισαγάγετε διάστημα αυτόματης αναπαραγωγής",
+          "navbar": "Γραμμή πλοήγησης",
+          "showNavbar": "Εμφάνιση γραμμής πλοήγησης",
+          "theme": "Προεπιλεγμένο Θέμα",
+          "fontFamily": "Γραμματοσειρά",
+          "webFontLoadError": "Απέτυχε η φόρτωση κάποιων γραμματοσειρών από την τοπική διαμόρφωση",
+          "fontSize": "Μέγεθος γραμματοσειράς",
+          "overlay": "Επικάλυψη",
+          "templateTooltip": "Αυτή η ρύθμιση σας επιτρέπει να ενεργοποιήσετε τη λειτουργία Αναγνώρισης στον χάρτη ορίζοντας μια γενική μορφή για όλα τα στρώματα. Είναι δυνατή η ρύθμιση διαφορετικής μορφής για κάθε στρώμα χρησιμοποιώντας τον προχωρημένο επεξεργαστή χαρτών (εικονίδιο μολυβιού). Για περισσότερες πληροφορίες, δείτε τον <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'>οδηγό χρήστη</a>. Εάν ένα στρώμα έχει ορίσει τη δική του μορφή Αναγνώρισης, αυτή θα χρησιμοποιηθεί αντί της γενικής που ορίζεται σε επίπεδο χάρτη."
         }
       },
       "importDialog": {
-        "selectFiles": "Select a file",
-        "heading": "Drop a previously exported geostory .json file",
-        "note": "The data in the imported file will replace the data in the current geostory"
+        "selectFiles": "Επιλέξτε αρχείο",
+        "heading": "Αποθέστε ένα προηγουμένως εξαγόμενο αρχείο .json γεοϊστορίας",
+        "note": "Τα δεδομένα στο εισαγόμενο αρχείο θα αντικαταστήσουν τα δεδομένα της τρέχουσας γεοϊστορίας"
       },
       "exportDialog": {
-        "heading": "Export geostory as a .json file"
+        "heading": "Εξαγωγή γεοϊστορίας ως αρχείο .json"
       },
       "errors": {
         "loading": {
-          "notFound": "Geostory not found",
-          "title": "Error",
-          "unknownError": "Unknown error",
-          "pleaseLogin": "Please login",
-          "notAccessible": "This story is not accessible",
-          "geostoryNotAccessible": "You don't have permission to access this story. Please contact the resource owner",
-          "geostoryDoesNotExist": "This story does not exist",
-          "video": "Sorry! An error has occurred, please try again later."
+          "notFound": "Η γεοϊστορία δεν βρέθηκε",
+          "title": "Σφάλμα",
+          "unknownError": "Άγνωστο σφάλμα",
+          "pleaseLogin": "Παρακαλώ συνδεθείτε",
+          "notAccessible": "Αυτή η ιστορία δεν είναι προσβάσιμη",
+          "geostoryNotAccessible": "Δεν έχετε δικαίωμα πρόσβασης σε αυτή την ιστορία. Επικοινωνήστε με τον κάτοχο του πόρου",
+          "geostoryDoesNotExist": "Αυτή η ιστορία δεν υπάρχει",
+          "video": "Συγγνώμη! Παρουσιάστηκε σφάλμα, προσπαθήστε ξανά αργότερα."
         }
       },
       "mapEditor": {
-        "configureMapOptions": "Configure map",
-        "settings": "Settings",
-        "settingsSubTitle": "Manage user interactions",
-        "toc": "Layers",
-        "pan": "Pan interaction",
-        "zoom": "Zoom In/Out interactions",
-        "topLeft": "Top Left",
-        "topRight": "Top Right",
-        "bottomLeft": "Bottom Left",
-        "bottomRight": "Bottom Right",
-        "identify": "Identify"
+        "configureMapOptions": "Διαμόρφωση χάρτη",
+        "settings": "Ρυθμίσεις",
+        "settingsSubTitle": "Διαχείριση αλληλεπιδράσεων χρήστη",
+        "toc": "Στρώματα",
+        "pan": "Μετακίνηση χάρτη",
+        "zoom": "Μεγέθυνση/Σμίκρυνση",
+        "topLeft": "Πάνω Αριστερά",
+        "topRight": "Πάνω Δεξιά",
+        "bottomLeft": "Κάτω Αριστερά",
+        "bottomRight": "Κάτω Δεξιά",
+        "identify": "Αναγνώριση"
       },
       "webPageCreator": {
-        "title": "Web page",
-        "saveButton": "Save",
-        "error": "Please provide valid web page URL",
+        "title": "Ιστοσελίδα",
+        "saveButton": "Αποθήκευση",
+        "error": "Παρακαλώ εισάγετε έγκυρο URL ιστοσελίδας",
         "url": {
           "label": "URL"
         }
       },
       "customizeTheme": {
-        "backgroundColorLabel": "Background",
-        "textColorLabel": "Text",
-        "shadowLabel": "Shadow",
-        "useAlternativeTextColor": "Use alternative text color",
-        "alternativeTextColorPopover": "<p>Warning: the selected text color could be not readable on this background.</p><p>An alternative text color is {color} &nbsp;<span class=\"ms-custom-theme-picker-alternative-text\" style=\"background-color:{color}\"></span></p>"
+        "backgroundColorLabel": "Φόντο",
+        "textColorLabel": "Κείμενο",
+        "shadowLabel": "Σκιά",
+        "useAlternativeTextColor": "Χρήση εναλλακτικού χρώματος κειμένου",
+        "alternativeTextColorPopover": "<p>Προειδοποίηση: το επιλεγμένο χρώμα κειμένου μπορεί να μην είναι ευανάγνωστο σε αυτό το φόντο.</p><p>Ένα εναλλακτικό χρώμα κειμένου είναι {color} &nbsp;<span class=\"ms-custom-theme-picker-alternative-text\" style=\"background-color:{color}\"></span></p>"
       }
     },
     "geostoryEmbedded": {
-      "loadingSpinner": "Loading Story",
+      "loadingSpinner": "Φόρτωση ιστορίας",
       "errors": {
         "loading": {
-          "notFound": "Geostory not found",
-          "title": "Error",
-          "unknownError": "Unknown error",
-          "notAccessible": "This story is not accessible",
-          "pleaseLogin": "Resource is not public",
-          "geostoryNotAccessible": "You don't have permission to access this story",
-          "geostoryDoesNotExist": "This story does not exist"
+          "notFound": "Η γεοϊστορία δεν βρέθηκε",
+          "title": "Σφάλμα",
+          "unknownError": "Άγνωστο σφάλμα",
+          "notAccessible": "Αυτή η ιστορία δεν είναι προσβάσιμη",
+          "pleaseLogin": "Ο πόρος δεν είναι δημόσιος",
+          "geostoryNotAccessible": "Δεν έχετε δικαίωμα πρόσβασης σε αυτή την ιστορία",
+          "geostoryDoesNotExist": "Αυτή η ιστορία δεν υπάρχει"
         }
       }
     },
     "saveDialog": {
-      "title": "Edit properties",
-      "name": "Name",
-      "titleInput": "Title",
-      "description": "Description",
-      "createdAt": "Created",
-      "modifiedAt": "Modified",
-      "namePlaceholder": "Type a name...",
-      "descriptionPlaceholder": "Type a description...",
-      "titlePlaceholder": "Type a title...",
-      "confirmCloseText": "There are pending changes, are you sure that you want to close without saving?",
-      "close": "Close",
-      "cancel": "Cancel",
-      "saveSuccessTitle": "Success",
-      "saveSuccessMessage": "Saved successfully",
-      "saveTooltip": "Save",
-      "saveAsTooltip": "Save As",
-      "unadvertised": "Unadvertised",
-      "creator": "Created by",
-      "editor": "Last modified by"
+      "title": "Επεξεργασία ιδιοτήτων",
+      "name": "Όνομα",
+      "titleInput": "Τίτλος",
+      "description": "Περιγραφή",
+      "createdAt": "Δημιουργήθηκε",
+      "modifiedAt": "Τροποποιήθηκε",
+      "namePlaceholder": "Πληκτρολογήστε ένα όνομα...",
+      "descriptionPlaceholder": "Πληκτρολογήστε μια περιγραφή...",
+      "titlePlaceholder": "Πληκτρολογήστε έναν τίτλο...",
+      "confirmCloseText": "Υπάρχουν εκκρεμείς αλλαγές, είστε σίγουροι ότι θέλετε να κλείσετε χωρίς αποθήκευση;",
+      "close": "Κλείσιμο",
+      "cancel": "Ακύρωση",
+      "saveSuccessTitle": "Επιτυχία",
+      "saveSuccessMessage": "Αποθηκεύτηκε με επιτυχία",
+      "saveTooltip": "Αποθήκευση",
+      "saveAsTooltip": "Αποθήκευση ως",
+      "unadvertised": "Μη δημοσιευμένο",
+      "creator": "Δημιουργήθηκε από",
+      "editor": "Τελευταία τροποποίηση από"
     },
     "mapEditor": {
-      "modalTitle": "Map Editor",
-      "confirmExitTitle": "Close Map Editor",
-      "confirmExitContent": "Discard pending changes?"
+      "modalTitle": "Επεξεργαστής Χάρτη",
+      "confirmExitTitle": "Κλείσιμο Επεξεργαστή Χάρτη",
+      "confirmExitContent": "Απόρριψη εκκρεμών αλλαγών;"
     },
     "mediaEditor": {
-      "modalTitle": "Media",
-      "images": "Images",
-      "videos": "Videos",
-      "maps": "Maps",
-      "preview": "Preview",
-      "apply": "Apply",
-      "confirmExitTitle": "Close Media Editor",
-      "confirmExitContent": "Discard pending changes?",
+      "modalTitle": "Πολυμέσα",
+      "images": "Εικόνες",
+      "videos": "Βίντεο",
+      "maps": "Χάρτες",
+      "preview": "Προεπισκόπηση",
+      "apply": "Εφαρμογή",
+      "confirmExitTitle": "Κλείσιμο Επεξεργαστή Πολυμέσων",
+      "confirmExitContent": "Απόρριψη εκκρεμών αλλαγών;",
       "mediaPicker": {
-        "services": "Services: ",
-        "clean": "Clean results",
-        "noResults": "No results",
-        "selectService": "Select a service",
-        "add": "Add",
-        "back": "Back",
-        "save": "Save",
-        "edit": "Edit",
-        "sourcePlaceholder": "Enter a source",
-        "source": "Source",
-        "titlePlaceholder": "Enter a title",
-        "title": "Title",
-        "altTextPlaceholder": "Enter an alternative text",
-        "altText": "Alternative text",
-        "descriptionPlaceholder": "Enter a description",
-        "description": "Description",
-        "creditsPlaceholder": "Enter credits",
+        "services": "Υπηρεσίες: ",
+        "clean": "Καθαρισμός αποτελεσμάτων",
+        "noResults": "Χωρίς αποτελέσματα",
+        "selectService": "Επιλέξτε υπηρεσία",
+        "add": "Προσθήκη",
+        "back": "Επιστροφή",
+        "save": "Αποθήκευση",
+        "edit": "Επεξεργασία",
+        "sourcePlaceholder": "Εισάγετε πηγή",
+        "source": "Πηγή",
+        "titlePlaceholder": "Εισάγετε τίτλο",
+        "title": "Τίτλος",
+        "altTextPlaceholder": "Εισάγετε εναλλακτικό κείμενο",
+        "altText": "Εναλλακτικό κείμενο",
+        "descriptionPlaceholder": "Εισάγετε περιγραφή",
+        "description": "Περιγραφή",
+        "creditsPlaceholder": "Εισάγετε credits",
         "credits": "Credits",
-        "mapFilter": "Filter maps",
-        "videoFilter": "Filter videos",
-        "imageFilter": "Filter images",
-        "import": "Import resource to local store",
-        "trash": "Remove resource",
-        "videoUrl": "Video URL",
-        "videoUrlPlaceholder": "Enter a video url",
-        "thumbnail": "Add thumbnail (maximum size 500kb)",
-        "createVideoThumbnail": "Create a thumbnail from video source",
-        "thumbnailCreateError": "It's not possible to create a thumbnail from the current video source. Click or drop an image in the thumbnail input to upload it manually"
+        "mapFilter": "Φιλτράρισμα χαρτών",
+        "videoFilter": "Φιλτράρισμα βίντεο",
+        "imageFilter": "Φιλτράρισμα εικόνων",
+        "import": "Εισαγωγή πόρου στο τοπικό αποθετήριο",
+        "trash": "Αφαίρεση πόρου",
+        "videoUrl": "URL βίντεο",
+        "videoUrlPlaceholder": "Εισάγετε URL βίντεο",
+        "thumbnail": "Προσθήκη μικρογραφίας (μέγιστο μέγεθος 500kb)",
+        "createVideoThumbnail": "Δημιουργία μικρογραφίας από πηγή βίντεο",
+        "thumbnailCreateError": "Δεν είναι δυνατή η δημιουργία μικρογραφίας από την τρέχουσα πηγή βίντεο. Κάντε κλικ ή σύρετε μια εικόνα στο πεδίο μικρογραφίας για να την ανεβάσετε χειροκίνητα"
       },
       "mediaform": {
-        "confirmExitTitle": "Close Media Form",
-        "confirmExitContent": "Discard pending changes?"
+        "confirmExitTitle": "Κλείσιμο Φόρμας Πολυμέσων",
+        "confirmExitContent": "Απόρριψη εκκρεμών αλλαγών;"
       },
       "mapForm": {
-        "thumbnailMessage": "Size of images should be a square of 98px x 98px, max 100kb",
-        "confirmMapSaveTitle": "Map Update",
-        "confirmMapSaveContent": "Updating this map will reset all dependent maps in the story previously customized through the inline editor, confirm?"
+        "thumbnailMessage": "Το μέγεθος των εικόνων πρέπει να είναι τετράγωνο 98px x 98px, μέγιστο 100kb",
+        "confirmMapSaveTitle": "Ενημέρωση Χάρτη",
+        "confirmMapSaveContent": "Η ενημέρωση αυτού του χάρτη θα επαναφέρει όλους τους εξαρτώμενους χάρτες στην ιστορία που είχαν προσαρμοστεί μέσω του ενσωματωμένου επεξεργαστή, επιβεβαιώνετε;"
       },
       "mediaList": {
-        "removeResourceTitle": "Are you sure?",
-        "confirmRemoveResource": "Do you want to remove this media resource from the story?",
-        "confirmRemoveUsedResource": "This resource will also be removed from all the sections/contents where It's used leaving them empty. Do you want to remove It from the story?",
-        "resultsCount": "{count} of {total} {total, plural, one {Result} other {Results}}"
+        "removeResourceTitle": "Είστε σίγουροι;",
+        "confirmRemoveResource": "Θέλετε να αφαιρέσετε αυτόν τον πόρο πολυμέσων από την ιστορία;",
+        "confirmRemoveUsedResource": "Αυτός ο πόρος θα αφαιρεθεί επίσης από όλες τις ενότητες/περιεχόμενα όπου χρησιμοποιείται, αφήνοντάς τα κενά. Θέλετε να τον αφαιρέσετε από την ιστορία;",
+        "resultsCount": "{count} από {total} {total, plural, one {Αποτέλεσμα} other {Αποτελέσματα}}"
       },
       "imageList": {
-        "emptyList": "Click on the plus button to add a new image. See the user guide <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#images' target='_blank'/>here</a>"
+        "emptyList": "Κάντε κλικ στο κουμπί + για να προσθέσετε νέα εικόνα. Δείτε τον οδηγό χρήστη <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#images' target='_blank'/>εδώ</a>"
       },
       "mapList": {
-        "emptyList": "Click on the plus button to create a map or select a different map service. See the user guide <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#maps' target='_blank'/>here</a>"
+        "emptyList": "Κάντε κλικ στο κουμπί + για να δημιουργήσετε χάρτη ή επιλέξτε διαφορετική υπηρεσία χαρτών. Δείτε τον οδηγό χρήστη <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#maps' target='_blank'/>εδώ</a>"
       },
       "videoList": {
-        "emptyList": "Click on the plus button to add a new video. See the user guide <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#videos' target='_blank'/>here</a>"
+        "emptyList": "Κάντε κλικ στο κουμπί + για να προσθέσετε νέο βίντεο. Δείτε τον οδηγό χρήστη <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#videos' target='_blank'/>εδώ</a>"
       }
     },
     "backgroundDialog": {
-      "addTitle": "Add New Background",
-      "editTitle": "Edit Current Background",
-      "editAttribution": "Attribution",
-      "editAttributionPlaceholder": "Enter Attribution Text",
-      "title": "Title",
-      "titlePlaceholder": "Enter displayed name",
-      "add": "Add",
-      "thumbnailMessage": "Size of images should be a square of 128px x 128px, max 500kb",
-      "imageUploadMessage": "Click, or drag and drop to add an image",
-      "additionalParameters": "Additional Parameters",
-      "addAdditionalParameterTooltip": "Add parameter",
-      "removeAdditionalParameterTooltip": "Remove parameter",
-      "parameter": "Parameter",
-      "value": "Value",
-      "string": "String",
-      "number": "Number",
-      "boolean": "Boolean"
+      "addTitle": "Προσθήκη Νέου Φόντου",
+      "editTitle": "Επεξεργασία Τρέχοντος Φόντου",
+      "editAttribution": "Αναφορά",
+      "editAttributionPlaceholder": "Εισάγετε κείμενο αναφοράς",
+      "title": "Τίτλος",
+      "titlePlaceholder": "Εισάγετε εμφανιζόμενο όνομα",
+      "add": "Προσθήκη",
+      "thumbnailMessage": "Το μέγεθος των εικόνων πρέπει να είναι τετράγωνο 128px x 128px, μέγιστο 500kb",
+      "imageUploadMessage": "Κάντε κλικ ή σύρετε και αποθέστε για να προσθέσετε μια εικόνα",
+      "additionalParameters": "Επιπλέον Παράμετροι",
+      "addAdditionalParameterTooltip": "Προσθήκη παραμέτρου",
+      "removeAdditionalParameterTooltip": "Αφαίρεση παραμέτρου",
+      "parameter": "Παράμετρος",
+      "value": "Τιμή",
+      "string": "Κείμενο",
+      "number": "Αριθμός",
+      "boolean": "Λογικό"
     },
-    "defaultMapBackgroundsServiceTitle": "Default Backgrounds",
+    "defaultMapBackgroundsServiceTitle": "Προεπιλεγμένα Φόντα",
     "backgroundSelector": {
-      "addTooltip": "Add new background",
-      "editTooltip": "Edit background",
-      "deleteTooltip": "Delete background",
-      "addTerrainTooltip": "Add new terrain",
-      "editTerrainTooltip": "Edit terrain",
-      "deleteTerrainTooltip": "Delete terrain",
-      "confirmDelete": "Are you sure you want to delete \"{title}\" background?",
-      "backgroundIncompatibleTooltip": "This background layer is not compatible with the current map projection",
+      "addTooltip": "Προσθήκη νέου φόντου",
+      "editTooltip": "Επεξεργασία φόντου",
+      "deleteTooltip": "Διαγραφή φόντου",
+      "addTerrainTooltip": "Προσθήκη νέου εδάφους",
+      "editTerrainTooltip": "Επεξεργασία εδάφους",
+      "deleteTerrainTooltip": "Διαγραφή εδάφους",
+      "confirmDelete": "Είστε σίγουροι ότι θέλετε να διαγράψετε το φόντο \"{title}\";",
+      "backgroundIncompatibleTooltip": "Αυτό το επίπεδο φόντου δεν είναι συμβατό με την τρέχουσα προβολή χάρτη",
       "terrain": {
         "placeholders": {
-          "titleLabel": "Enter title ...",
-          "urlLabel": "Enter URL ...",
-          "assetId": "Enter asset ID ...",
-          "accessToken": "Enter access token ...",
-          "server": "Enter server ...",
-          "layernameLabel": "Enter Layer name ..."
+          "titleLabel": "Εισάγετε τίτλο ...",
+          "urlLabel": "Εισάγετε URL ...",
+          "assetId": "Εισάγετε ID πόρου ...",
+          "accessToken": "Εισάγετε access token ...",
+          "server": "Εισάγετε server ...",
+          "layernameLabel": "Εισάγετε όνομα επιπέδου ..."
         },
-        "invalidUrl": "The provided url is invalid",
-        "mainTitle": "Terrains",
-        "title": "Add new terrain",
-        "providerLabel": "Provider",
-        "titleLabel": "Title",
+        "invalidUrl": "Το δοθέν URL δεν είναι έγκυρο",
+        "mainTitle": "Εδάφη",
+        "title": "Προσθήκη νέου εδάφους",
+        "providerLabel": "Πάροχος",
+        "titleLabel": "Τίτλος",
         "cesiumProvider": {
           "urlLabel": "URL",
           "label": "Cesium"
         },
         "cesiumIonProvider": {
           "label": "Cesium Ion",
-          "assetId": "Asset ID",
+          "assetId": "ID πόρου",
           "accessToken": "Access Token",
           "server": "Server"
         },
         "wmsProvider": {
           "label": "WMS",
           "urlLabel": "URL",
-          "layernameLabel": "Layer Name",
-          "projectionLabel": "Projection",
-          "wmsVersionLabel": "WMS Version"
+          "layernameLabel": "Όνομα Επιπέδου",
+          "projectionLabel": "Προβολή",
+          "wmsVersionLabel": "Έκδοση WMS"
         },
-        "add": "Add"
+        "add": "Προσθήκη"
       }
     },
     "stepper": {
-      "back": "Back",
-      "next": "Next"
+      "back": "Πίσω",
+      "next": "Επόμενο"
     },
     "newMapDialog": {
-      "title": "Select a context",
-      "noContexts": "No contexts found",
-      "filterPlaceholder": "Search contexts..."
+      "title": "Επιλέξτε ένα πλαίσιο",
+      "noContexts": "Δεν βρέθηκαν πλαίσια",
+      "filterPlaceholder": "Αναζήτηση πλαισίων..."
     },
     "plugins": {
       "About": {
-        "description": "Tool that shows the About window",
-        "title": "About"
+        "description": "Εργαλείο που εμφανίζει το παράθυρο Πληροφοριών",
+        "title": "Σχετικά"
       },
       "AddGroup": {
-        "description": "Allows users to create new layer groups in the TOC",
-        "title": "Add Layer Group"
+        "description": "Επιτρέπει στους χρήστες να δημιουργούν νέες ομάδες επιπέδων στον Πίνακα Περιεχομένων",
+        "title": "Προσθήκη Ομάδας Επιπέδων"
       },
       "Annotations": {
-        "description": "Tool to draw annotations on map",
-        "title": "Annotations"
+        "description": "Εργαλείο για σχεδίαση σχολίων στον χάρτη",
+        "title": "Σχόλια"
       },
       "AutoMapUpdate": {
-        "description": "Allows the user to update the map (old mapstore version)",
-        "title": "Auto Map Update"
+        "description": "Επιτρέπει την αυτόματη ενημέρωση του χάρτη (παλιά έκδοση MapStore)",
+        "title": "Αυτόματη Ενημέρωση Χάρτη"
       },
       "BackgroundSelector": {
-        "description": "Allows to select map background",
-        "title": "Background Selector"
+        "description": "Επιτρέπει την επιλογή φόντου χάρτη",
+        "title": "Επιλογέας Φόντου"
       },
       "BurgerMenu": {
-        "description": "Menu on top right of the map that contains other plug-ins",
-        "title": "Burger Menu"
+        "description": "Μενού πάνω δεξιά που περιέχει άλλα πρόσθετα",
+        "title": "Μενού Burger"
       },
       "CRSSelector": {
-        "description": "Allows to switch map projection",
-        "title": "CRS Selector"
+        "description": "Επιτρέπει την αλλαγή της προβολής του χάρτη",
+        "title": "Επιλογέας CRS"
       },
       "DeleteMap": {
-        "description": "Allows to delete a map resource and all its associated resources",
-        "title": "Delete Map"
+        "description": "Επιτρέπει τη διαγραφή ενός πόρου χάρτη και όλων των σχετικών πόρων",
+        "title": "Διαγραφή Χάρτη"
       },
       "Details": {
-        "description": "Allow to show detail card for a map, if any",
-        "title": "Map Details"
+        "description": "Επιτρέπει την εμφάνιση κάρτας λεπτομερειών για ένα χάρτη, αν υπάρχει",
+        "title": "Λεπτομέρειες Χάρτη"
       },
       "Expander": {
-        "description": "Utility for Sidebar (navigation) that allows to hide some buttons",
-        "title": "Expander"
+        "description": "Χρήσιμο για την πλαϊνή μπάρα (πλοήγηση) για απόκρυψη κάποιων κουμπιών",
+        "title": "Αναδιπλωτής"
       },
       "FeatureEditor": {
-        "description": "Browse attributes in a table",
-        "title": "Attribute Table"
+        "description": "Περιήγηση σε χαρακτηριστικά σε πίνακα",
+        "title": "Πίνακας Χαρακτηριστικών"
       },
       "FilterLayer": {
-        "description": "Allows to add a filter to a layer",
-        "title": "Filter Layer"
+        "description": "Επιτρέπει την προσθήκη φίλτρου σε ένα επίπεδο",
+        "title": "Φίλτρο Επιπέδου"
       },
       "GeoProcessing": {
-        "description": "Allows to geo process layers to generate a new one, using wps processes buffer and intersection",
-        "title": "GeoProcessing"
+        "description": "Επιτρέπει τη γεω-επεξεργασία επιπέδων για δημιουργία νέου, χρησιμοποιώντας διαδικασίες WPS buffer και intersection",
+        "title": "Γεω-Επεξεργασία"
       },
       "HelpLink": {
-        "description": "A button to access to MapStore documentation",
-        "title": "Documentation Link"
+        "description": "Κουμπί για πρόσβαση στην τεκμηρίωση του MapStore",
+        "title": "Σύνδεσμος Τεκμηρίωσης"
       },
       "Home": {
-        "description": "Link to the home page",
-        "title": "Home"
+        "description": "Σύνδεσμος προς την αρχική σελίδα",
+        "title": "Αρχική"
       },
       "Identify": {
-        "description": "Query the objects on map",
-        "title": "Identify"
+        "description": "Ερώτημα για τα αντικείμενα στον χάρτη",
+        "title": "Εντοπισμός"
       },
       "Locate": {
-        "description": "Find and follow the position of the user on the map",
-        "title": "Location tool"
+        "description": "Εντοπίζει και ακολουθεί τη θέση του χρήστη στον χάρτη",
+        "title": "Εργαλείο Θέσης"
       },
       "Login": {
-        "description": "Login tool",
-        "title": "Login"
+        "description": "Εργαλείο Σύνδεσης",
+        "title": "Σύνδεση"
       },
       "LongitudinalProfileTool": {
-        "description": "Allows user to generate a longitudinal profile given a linestring and a layer with elevation attribute. Needs configuration",
-        "title": "Longitudinal Profile tool"
+        "description": "Επιτρέπει τη δημιουργία επιμήκους προφίλ από γραμμή και επίπεδο με υψομετρικό χαρακτηριστικό. Απαιτεί ρύθμιση",
+        "title": "Εργαλείο Επιμήκους Προφίλ"
       },
       "MapCatalog": {
-        "description": "Allows browsing, editing, deleting and loading of maps that are available on the server",
-        "title": "Map Catalog"
+        "description": "Επιτρέπει την περιήγηση, επεξεργασία, διαγραφή και φόρτωση χαρτών στον server",
+        "title": "Κατάλογος Χαρτών"
       },
       "MapExport": {
-        "description": "Allows to export map in a file",
-        "title": "Map Export"
+        "description": "Επιτρέπει την εξαγωγή του χάρτη σε αρχείο",
+        "title": "Εξαγωγή Χάρτη"
       },
       "MapImport": {
-        "description": "Allows to import data (SHP, KML/KMZ, GeoJSON, GPX) or reload exported maps.",
-        "title": "Import"
+        "description": "Επιτρέπει την εισαγωγή δεδομένων (SHP, KML/KMZ, GeoJSON, GPX) ή την επαναφόρτωση εξαγόμενων χαρτών",
+        "title": "Εισαγωγή"
       },
       "MapLoading": {
-        "description": "A spinner in the sidebar that indicates if the map is loading",
-        "title": "Map Loading Indicator"
+        "description": "Ένα spinner στην πλαϊνή μπάρα που δείχνει αν φορτώνει ο χάρτης",
+        "title": "Δείκτης Φόρτωσης Χάρτη"
       },
       "Measure": {
-        "description": "Allows to measure distances and areas on the map",
-        "title": "Measure"
+        "description": "Επιτρέπει τη μέτρηση αποστάσεων και εμβαδών στον χάρτη",
+        "title": "Μέτρηση"
       },
       "MetadataExplorer": {
-        "description": "Browse services (WMS/WMTS/CSW) to add layers to the map",
-        "title": "Catalog"
+        "description": "Περιήγηση υπηρεσιών (WMS/WMTS/CSW) για προσθήκη επιπέδων στον χάρτη",
+        "title": "Κατάλογος"
       },
       "MousePosition": {
-        "description": "Shows the coordinates of the pointed by the mouse cursor",
-        "title": "Mouse Position"
+        "description": "Δείχνει τις συντεταγμένες όπου δείχνει ο δείκτης του ποντικιού",
+        "title": "Συντεταγμένες Δείκτη"
       },
       "Print": {
-        "description": "Allows to print the current map with legend",
-        "title": "Print Tool"
+        "description": "Επιτρέπει την εκτύπωση του τρέχοντος χάρτη με υπόμνημα",
+        "title": "Εργαλείο Εκτύπωσης"
       },
       "Save": {
-        "description": "Allows to save the changes to the map on the server",
-        "title": "Save"
+        "description": "Επιτρέπει την αποθήκευση αλλαγών του χάρτη στον server",
+        "title": "Αποθήκευση"
       },
       "SaveAs": {
-        "description": "Allows to create or clone maps on the server",
-        "title": "Save As"
+        "description": "Επιτρέπει τη δημιουργία ή αντιγραφή χαρτών στον server",
+        "title": "Αποθήκευση Ως"
       },
       "ScaleBox": {
-        "description": "An indicator and a selector of the current scale of the map",
-        "title": "Scale Selector"
+        "description": "Δείκτης και επιλογέας κλίμακας του χάρτη",
+        "title": "Επιλογέας Κλίμακας"
       },
       "Search": {
-        "description": "Textual search tool (GeoCoder)",
-        "title": "Search Bar"
+        "description": "Κειμενικό εργαλείο αναζήτησης (GeoCoder)",
+        "title": "Μπάρα Αναζήτησης"
       },
       "Settings": {
-        "description": "Allows to edit some settings for the map (language, default info format...)",
-        "title": "Settings"
+        "description": "Επιτρέπει την επεξεργασία κάποιων ρυθμίσεων χάρτη (γλώσσα, προεπιλεγμένη μορφή πληροφορίας...)",
+        "title": "Ρυθμίσεις"
       },
       "Share": {
-        "description": "Allows to share the map in various ways (link, QR-Code, embed, social networks...)",
-        "title": "Share Tool"
+        "description": "Επιτρέπει την κοινή χρήση του χάρτη με διάφορους τρόπους (link, QR-Code, embed, social networks...)",
+        "title": "Εργαλείο Κοινής Χρήσης"
       },
       "Permalink": {
-        "description": "Allows to create a permalink of the current resource in view",
-        "title": "Permalink"
+        "description": "Επιτρέπει τη δημιουργία μόνιμου συνδέσμου για τον τρέχοντα πόρο",
+        "title": "Μόνιμος Σύνδεσμος"
       },
       "StreetView": {
         "title": "Street View",
-        "description": "Street view tool for browsing Google street view images from the map"
+        "description": "Εργαλείο περιήγησης εικόνων Street View της Google"
       },
       "StyleEditor": {
-        "description": "Layer's style editor",
-        "title": "Style Editor"
+        "description": "Επεξεργαστής στυλ επιπέδου",
+        "title": "Επεξεργαστής Στυλ"
       },
       "TOC": {
-        "description": "Provides a list of layers with an ability to sort them",
-        "title": "List of layers"
+        "description": "Παρέχει λίστα επιπέδων με δυνατότητα ταξινόμησης",
+        "title": "Λίστα Επιπέδων"
       },
       "TOCItemsSettings": {
-        "description": "Allow to edit layer's settings",
-        "title": "Layer Settings"
+        "description": "Επιτρέπει την επεξεργασία ρυθμίσεων επιπέδου",
+        "title": "Ρυθμίσεις Επιπέδου"
       },
       "Timeline": {
-        "description": "Allows time travel for data with time dimension",
-        "title": "Timeline"
+        "description": "Επιτρέπει ταξίδι στον χρόνο για δεδομένα με χρονική διάσταση",
+        "title": "Χρονογραμμή"
       },
       "Tutorial": {
-        "description": "Adds a tutorial to explain the various functionalities",
-        "title": "Tutorial"
+        "description": "Προσθέτει οδηγό για εξήγηση λειτουργιών",
+        "title": "Οδηγός"
       },
       "UserExtensions": {
-        "description": "Allows the user to enable/disable user extensions",
-        "title": "User Extensions"
+        "description": "Επιτρέπει ενεργοποίηση/απενεργοποίηση επεκτάσεων χρήστη",
+        "title": "Επεκτάσεις Χρήστη"
       },
       "UserSession": {
-        "title": "User Session",
-        "description": "Enables an automatically saved user session for every context"
+        "title": "Συνεδρία Χρήστη",
+        "description": "Ενεργοποιεί αυτόματη αποθήκευση συνεδρίας χρήστη για κάθε πλαίσιο"
       },
       "Version": {
-        "description": "Shows the version of MapStore in map settings tool",
-        "descriptionGeorchestra": "Shows the version of GeOrchestra in map settings tool",
-        "title": "Version"
+        "description": "Δείχνει την έκδοση του MapStore στις ρυθμίσεις χάρτη",
+        "descriptionGeorchestra": "Δείχνει την έκδοση του GeOrchestra στις ρυθμίσεις χάρτη",
+        "title": "Έκδοση"
       },
       "LayerDownload": {
-        "description": "Allows to download data from the Attribute Table",
-        "title": "Download Data"
+        "description": "Επιτρέπει τη λήψη δεδομένων από τον Πίνακα Χαρακτηριστικών",
+        "title": "Λήψη Δεδομένων"
       },
       "Widgets": {
-        "description": "Allows to add and show widgets on map",
+        "description": "Επιτρέπει την προσθήκη και εμφάνιση widgets στον χάρτη",
         "title": "Widgets"
       },
       "WidgetsTray": {
-        "description": "A tray to collapse and expand widgets on map. ",
-        "title": "Widgets Tray"
+        "description": "Δίσκος για αναδίπλωση και επέκταση widgets στον χάρτη",
+        "title": "Δίσκος Widgets"
       },
       "Globe": {
-        "description": "Sidebar button to toggle 3D mode on/off",
+        "description": "Κουμπί πλαϊνής μπάρας για ενεργοποίηση/απενεργοποίηση 3D",
         "title": "3D"
       },
       "ZoomAll": {
-        "description": "Sidebar button to zoom to the map extent of the map",
-        "title": "Zoom To Max Extent"
+        "description": "Κουμπί πλαϊνής μπάρας για μεγέθυνση στο πλήρες εύρος χάρτη",
+        "title": "Ζουμ στο Μέγιστο Εύρος"
       },
       "ZoomIn": {
-        "description": "Button that increase zoom level of the map",
-        "title": "Zoom In"
+        "description": "Κουμπί που αυξάνει το επίπεδο ζουμ του χάρτη",
+        "title": "Μεγέθυνση"
       },
       "ZoomOut": {
-        "description": "Button that decrease zoom level of the map",
-        "title": "Zoom Out"
+        "description": "Κουμπί που μειώνει το επίπεδο ζουμ του χάρτη",
+        "title": "Σμίκρυνση"
       },
       "MapViews": {
-        "description": "This plugin allows to add a sequence of different views inside a map",
-        "title": "MapViews"
+        "description": "Επιτρέπει την προσθήκη ακολουθίας διαφορετικών προβολών μέσα σε ένα χάρτη",
+        "title": "Προβολές Χάρτη"
       },
       "BrandNavbar": {
-        "description": "Main navigation menu",
-        "title": "Brand Navbar"
+        "description": "Κύριο μενού πλοήγησης",
+        "title": "Μενού Μάρκας"
       },
       "ResourceDetails": {
-        "description": "This plugin allows to manage resource details of the map",
-        "title": "Resource Details"
+        "description": "Επιτρέπει τη διαχείριση λεπτομερειών πόρων του χάρτη",
+        "title": "Λεπτομέρειες Πόρου"
       },
       "Language": {
-        "description": "This plugin allows to change the language of the app",
-        "title": "Language"
+        "description": "Επιτρέπει την αλλαγή της γλώσσας της εφαρμογής",
+        "title": "Γλώσσα"
       },
       "Itinerary": {
-        "description": "This plugin allows to create itineraries on the map",
-        "title": "Itinerary"
+        "description": "Επιτρέπει τη δημιουργία δρομολογίων στον χάρτη",
+        "title": "Δρομολόγιο"
       },
       "Isochrone": {
-        "description": "This plugin allows to calculate isochrones and isodistances",
-        "title": "Isochrone"
+        "description": "Επιτρέπει τον υπολογισμό ισοχρονών και ισοαποστάσεων",
+        "title": "Ισοχρώνες"
       }
     },
     "contextCreator": {
